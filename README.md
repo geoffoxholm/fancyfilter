@@ -1,6 +1,6 @@
 # fancyfilter
 
-Dependency-free header and iphoneos/iphonesimulator FAT static library implementing the hypothetical **Fancy Filter**. It is small part of the (hopefully) fun coding challenge described [here](http://iansachs.github.io/fancyfilter).
+Dependency-free header and iphoneos/iphonesimulator FAT static library implementing the hypothetical **Fancy Filter**. It is small part of the (hopefully) fun coding challenge described [here](http://geoffoxholm.github.io/fancyfilter).
 
 About
 -----
@@ -14,7 +14,7 @@ The **Fancy Filter** is a simple C++ filter. It uses some C++11 features, but ha
 
 #### Documentation
 
-Online API documentation can be found [here](https://iansachs.github.io/fancyfilter/doxygen/html/index.html). These pages are automatically generated from the `fancyfilter/fancyfilter.hpp` header file using [Doxygen](http://www.stack.nl/~dimitri/doxygen/).
+Online API documentation can be found [here](https://geoffoxholm.github.io/fancyfilter/doxygen/html/index.html). These pages are automatically generated from the `fancyfilter/fancyfilter.hpp` header file using [Doxygen](http://www.stack.nl/~dimitri/doxygen/).
 
 Contents
 --------
@@ -51,7 +51,7 @@ Contents
 Fancy Filter Library
 --------------------
 
-The Fancy Filter library is written in C++. It defines a custom [Image3u](https://iansachs.github.io/fancyfilter/doxygen/html/classfancyfilter_1_1_image.html) image class, as well an [applyFilter](https://iansachs.github.io/fancyfilter/doxygen/html/namespacefancyfilter.html#aec6ef14ffb390cc64820a81dad1073e2) function
+The Fancy Filter library is written in C++. It defines a custom [Image3u](https://geoffoxholm.github.io/fancyfilter/doxygen/html/classfancyfilter_1_1_image.html) image class, as well an [applyFilter](https://geoffoxholm.github.io/fancyfilter/doxygen/html/namespacefancyfilter.html#aec6ef14ffb390cc64820a81dad1073e2) function
 which takes an input `Image3u` and generates an output `Image3u`. It also requires a `numCells` which determines how many clusters the filter should generate, as well as a progress callback, which allows `applyFilter` to report progress.
 
 #### C++ Usage Example
